@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(front2.jpg);
+    background-repeat: no-repeat;
+   
+    background-size: 1257px 600px;
+    background-position: center;
+}
+.manu{
+    
+    background-color: rgba(192, 192, 192,0.3);
+    text-align: right;
+}
+
+.manu ul{
+    list-style: none;
+    display: inline-flex;
+    /* border: 2px solid seagreen; */
+}
+
+.manu ul li {
+    
+    margin: 10px;
+    padding:  13px;
+    padding-right: 20px;
+    background-color: rgba(106, 90, 205 , 0.8);
+    border-radius: 50px;
+}
+
+.manu ul li a{
+    
+    color: white;
+    text-decoration: none;
+    font: bolder;
+
+}
+
+.manu ul li a:hover{
+color: chartreuse;
+}
+
+
+
+.container h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Ranchers', cursive;
+    color:rgb(255, 78, 47);
+    padding: 20px 50px 10px 20px;
+    background-color: rgb(128, 128, 128 , 0.3);
+    padding-left:30px ;
+    
+}
+
+.select-yrs{
+    /* width: 500px; */
+    
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(255, 99, 71 , 0.2);
+}
+
+.select-yrs h2{
+
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 25px;
+}
+
+.select-yrs ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+.select-yrs ul li {
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    padding: 15px;
+    margin: 20px;
+
+}
+
+.select-yrs ul li:hover{
+    background-color: brown;
+}
+
+.select-yrs ul li a{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: rgb(219, 19, 19);
+    text-decoration: none;
+    font: bolder;
+}
+
+.select-yrs ul li a:hover{
+    color: chartreuse;
+}
+
